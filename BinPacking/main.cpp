@@ -1,11 +1,14 @@
 #include <iostream>
+#include "my_subset.h"
 
 using namespace std;
 
 
 int main()
 {
-	cout << "Hello, World!";
+	SubsetBase sb(15);
+
+	cout << sb.size();
 
 	return 0;
 }
